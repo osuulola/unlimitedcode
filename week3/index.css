@@ -1,0 +1,33 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 10px;
+}
+
+#head {
+    display: flex;
+    background: aqua;
+}
+
+.button {
+    display: inline ;
+    width: 100px;
+    height: 25px;
+    background: burlywood;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    }
+    main {
+        display: flex;
+    }
+    aside {
+        background-color: burlywood;
+    }
+    h2, h3{
+        color:blue
+    }
+    strong{
+        color:aqua
+    }
