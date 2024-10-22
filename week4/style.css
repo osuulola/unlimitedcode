@@ -1,0 +1,96 @@
+/* reset css */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box ;
+}
+
+.header-wrapper{
+    width:100vw;
+    background-color: white;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin: 0 auto;
+}
+.main-header ul {
+    list-style: none;
+    display: flex;
+}
+nav li{
+    padding-right:1.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn {
+    border: 1px solid black;
+    margin: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.sign-in{
+    padding: 0.5rem 1rem;
+}
+main header {
+    width:30vw;
+    margin: 0 auto;
+}
+.card{
+    margin: 20px;
+    padding:50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 60vw;
+    margin: 0 auto;
+    
+}
+.card div{
+    padding: 20px;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.buy-btn {
+    background: rgb(239, 46, 126);
+    color:white;
+    font-size:small;
+    border: 2px solid white;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+}
+p span {
+    color:blue;
+}
+h2 span{
+    text-decoration: none;
+    color:grey;
+    font-size: 0.75rem;
+    font-weight: lighter;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+footer h3 {
+    width: 20vw;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}footer ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer {
+    width: 70vw;
+    margin: 0 auto;
+}
