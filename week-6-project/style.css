@@ -1,0 +1,137 @@
+* {
+    font-family: 'Montserrat Subrayada';
+}
+/* Group 1 */
+first-btn{
+    color: black;
+    text-decoration: none;
+    /* position: absolute; */
+    width: 353px;
+    height: 97px;
+    left: 579px;
+    top: 722px;
+    margin: 0 auto;
+}
+.header {
+    color: #FFFFFF;
+    /* position: absolute; */
+    width: 1512px;
+    height: 1139px;
+    left: 0px;
+    top: -143px;
+    background-image: url(images/mockup-wall-dark-living-room-interior-background-with-leather-sofa-table-empty-dark-wooden-wall-3d-rendering\ 1.png);
+}
+.header h4 {
+    /* JYR */
+
+    /* position: absolute; */
+    width: 191px;
+    height: 122px;
+    left: 50px;
+    top: 50px;
+
+    font-family: 'Montserrat Subrayada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 122px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+.header ul {
+    /* top bar */
+    /* position: absolute; */
+    width: 575px;
+    height: 30px;
+    left: 901px;
+    top: 50px;
+}
+
+#rectangle{
+    /* Rectangle 2 */
+
+    /* position: absolute; */
+    width: 1290px;
+    height: 224px;
+    left: 111px;
+    top: 884px;
+
+    background: #006970;
+    border-radius: 25px;
+}
+#rectangle ul li {
+    /* 150 types of furniture */
+    display: inline;
+    /* position: absolute; */
+    width: 180px;
+    height: 191px;
+    left: 1132px;
+    top: 901px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 155.5%;
+    /* or 109px */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#rectangle ul {
+    display: flex;
+}
+.peach {
+    background: #F9ECE1;
+    display: flex;
+    padding: 30px;
+}
+.white {
+    display: flex;
+    padding: 30px;
+}
+.white h2 {
+    /* Create Your Home More Aestetic */
+
+/* position: absolute; */
+width: 510px;
+height: 144px;
+left: 743px;
+top: 1294px;
+
+font-family: 'Amazon Ember';
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 72px;
+
+color: #525252;
+}
+.white ul {
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, */
+
+/* position: absolute; */
+width: 576px;
+height: 272px;
+left: 724px;
+top: 1491px;
+/* display: flex; */
+font-family: 'Amazon Ember';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 34px;
+
+color: #525252;
+}
+#footer {
+    background: #03494E;
+    padding: 30px;
+    color: #FFFFFF;
+}
+#footer div {
+    display: flex;
+}
+
+
