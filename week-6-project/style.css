@@ -170,4 +170,20 @@ hr {
 #footer div {
     display: flex;
     justify-content: space-around;
+    font-family: 'Amazon Ember';
+    font-size: 25px;
+}
+#footer h4 {
+    font-family: Montserrat Subrayada;
+    font-size: 70px;
+    font-weight: 400;
+    margin:0;
+}
+#footer li {
+    list-style: none;
+    font-size: 17px;
+}
+#social li{
+    display: inline;
+    margin:5px;
 }
