@@ -46,15 +46,18 @@ body {
     text-align: center;
     justify-self: center;
 }
-a {
-    background-color:#FFFFFF;
+.btn {
+    background: linear-gradient(98.14deg, rgba(255, 255, 255, 0.67) 0%, rgba(255, 255, 255, 0.5) 100%);
     text-decoration: none;
     color:#000;
     padding: 10px 5px;
     border-radius: 8px;
-    opacity: 0.6;
+    /* filter: blur(2px); */
+    backdrop-filter: blur(6px);
+    /* opacity: 0.6; */
     font-family: Montserrat;
     font-size: 35px;
+    border: 3px solid #ffffff;
 }
 #rectangle{
     background: #006970;
@@ -83,17 +86,23 @@ a {
     font-size: 1.5em;
     display: block;
 }
-
+hr {
+    margin: 5px;
+}
 .peach {
     background: #F9ECE1;
     display: flex;
-    padding: 30px;
+    padding: 50px;
+}
+.peach img {
+    margin: 20px;
+    border-radius: 15px;
 }
 .white {
     display: flex;
     padding: 30px;
 }
-.white h2 {
+.white h2, .peach h2 {
     font-family: 'Amazon Ember';
     font-style: normal;
     font-weight: 500;
@@ -109,6 +118,50 @@ a {
     line-height: 34px;
     color: #525252;
 }
+
+.space{
+    padding-top: 120px;
+}
+.josh {
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    display: flex;
+}
+.peach div p {
+    font-size: 25px;
+}
+.josh h5 {
+    font-size: 30px;
+    margin: 0;
+}
+.josh h6 {
+    font-size: 20px;
+    margin: 0;
+}
+.josh div {
+    padding:50px;
+    font-weight: 500;
+}
+.arrows {
+    width: 20%;
+    margin: 0 auto;
+}
+.left {
+    padding: 5px;
+    background: #ffffff;
+    color: #006970;
+    border-radius: 50%;
+}
+.right {
+    padding: 5px;
+    background: #006970;
+    color: #ffffff;
+    border-radius: 50%;
+}
+.push-up {
+    margin: 0 auto;
+    margin-top: -50px;
+}
 #footer {
     background: #03494E;
     padding: 30px;
@@ -116,7 +169,5 @@ a {
 }
 #footer div {
     display: flex;
-}
-.space{
-    padding-top: 120px;
+    justify-content: space-around;
 }
