@@ -100,6 +100,24 @@ hr {
     margin: 20px;
     border-radius: 15px;
 }
+.text p{
+    color: #ffffff;
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+.grid {
+    display: flex;
+    justify-content: center;
+}
+.grid img {
+    position: relative;
+}
+.text {
+    position: absolute;
+    align-self: flex-end;
+}
 .white {
     display: flex;
     padding: 30px;
@@ -107,7 +125,7 @@ hr {
 .white h2, .peach h2 {
     font-family: 'Amazon Ember';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 60px;
     line-height: 72px;
     color: #525252;
@@ -120,33 +138,44 @@ hr {
     line-height: 34px;
     color: #525252;
 }
-
+#short {
+    width: 30%;
+    padding: 5%;
+}
 .space{
     padding-top: 120px;
 }
 .josh {
     font-family: 'Amazon Ember';
     font-style: normal;
+    font-weight: 100;
     display: flex;
 }
-.peach div p {
+#p {
     font-size: 25px;
+    color: #525252;
+
 }
 .josh h5 {
     font-size: 30px;
     margin: 0;
+    color: #525252;
+
 }
 .josh h6 {
     font-size: 20px;
     margin: 0;
+    color: #9E9E9E;
+    ;
 }
 .josh div {
     padding:50px;
-    font-weight: 500;
 }
 .arrows {
     width: 20%;
     margin: 0 auto;
+    padding: 5px;
+    font-size: 2em;
 }
 .left {
     padding: 5px;
