@@ -180,6 +180,13 @@ function showAlert(text, type) {
 
 function editBook(e) {
   const element = e.currentTarget.parentElement.parentElement;
+  const strikedElement = element.getElementsByClassName('strike');
+  
+  if (strikedElement.length > 0){
+    showAlert('You should not edit a book already read', 'danger');
+    return ;
+    
+  }
   entryTitle = e.currentTarget.parentElement.previousElementSibling;
   inputTitle.value = entryTitle.innerHTML;
   editFlag = true;
