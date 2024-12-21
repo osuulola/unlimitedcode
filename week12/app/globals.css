@@ -71,3 +71,113 @@ button {
 .alert {
   color: green;
 }
+
+ {
+   {
+    /*  */
+  }
+}
+
+.table-container {
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.delete-btn,
+.edit-btn {
+  margin: 0 5px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #ff4444;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cancel-btn {
+  margin-left: 10px;
+  background-color: #808080;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+}
+
+.cancel-btn:hover {
+  background-color: #666666;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.show-toggle-button {
+  display: flex;
+  margin-inline: auto;
+  padding-inline: 14px;
+  padding-block: 10px;
+  background-color: #6060d1;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 17px;
+}
+
+.alert {
+  padding: 10px 20px;
+  margin-block: 20px;
+  border-radius: 4px;
+  z-index: 1000;
+  color: white;
+}
+
+.alert.success {
+  background-color: #4caf50;
+}
+
+.alert.error {
+  background-color: #f44336;
+}
